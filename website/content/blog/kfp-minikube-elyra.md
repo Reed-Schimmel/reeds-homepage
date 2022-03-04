@@ -5,8 +5,7 @@ draft: false
 slug: install-kubeflow-pipelines-elyra-linux-minikube
 github_link: "https://github.com/Reed-Schimmel/reeds-homepage"
 author: "Reed Schimmel"
-tags:
-  - Elyra
+tags: [Elyra, Kubeflow, Linux]
 bg_image: ""
 description: ""
 toc: 
