@@ -50,7 +50,7 @@ params:
   customCSS: false
 
   favicon: "/images/profile.png"
-  description: "A high performance hugo theme for personal portfolio and blog."
+  description: "Reed Schimmel - Automated Trading Engineer; portfolio and blog."
 
   # home
   disable_home: false
@@ -73,7 +73,7 @@ params:
   #     url: "https://gmail.com"
   
   # About
-  disable_about: false
+  disable_about: true
   descripe_l1_person: "Hi, I'm Profile, This site is still under development."
   descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
   skills:
@@ -87,7 +87,7 @@ params:
       percentage: 50
 
   # Experience
-  disable_experience: false
+  disable_experience: true
   experience:
     - company: "Google"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
@@ -115,7 +115,7 @@ params:
         - point: Created a frontend design for a product.
 
   # Education
-  disable_education: false
+  disable_education: true
   education:
     - degree: "B.tech"
       branch: "Information Technology"
@@ -134,7 +134,7 @@ params:
       graduation: "year"
 
   # Projects
-  disable_projects: false
+  disable_projects: true
   projects:
     - name: "Example project without details"
       img: /images/project.jpg
@@ -143,7 +143,7 @@ params:
       description: "Description of project"
 
   # Achievements
-  disable_achievements: false
+  disable_achievements: true
   achievements:
     - title: Competition winner
       description: We are developed a product which can help others.
