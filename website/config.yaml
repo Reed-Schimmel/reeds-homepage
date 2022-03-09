@@ -87,32 +87,48 @@ params:
       percentage: 50
 
   # Experience
-  disable_experience: true
+  disable_experience: false
   experience:
-    - company: "Google"
+    - company: "Spiffy-Composites"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
-      enddate: present
+      role: "Co-Founder"
+      startdate: Oct 2019
+      enddate: Jun 2020
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Facebook"
+        - point: Built MVP requirements doc by conducting customer discovery interviews.
+        - point: Developed crossplatform iOS/Android/web frontend with Expo SDK.
+        - point: CI / CD with BitBucket Pipelines to automated versioning, building, testing and app store deployment.
+        - point: Backend composite rendering with Google Cloud Functions and Puppeteer.
+    - company: "PayIt"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Software Engineer Intern"
+      startdate: May 2019
+      enddate: Aug 2019
+      featuredpoints:
+        - point: Reduced remittance issues by eliminating network race condition in Java web-API on Kubernetes.
+        - point: Helped increase annual recurring revenue by deploying iOS and Android mobile app for oncoming client.
+        - point: Increased mobile app stability by eliminating fatal react-native- push-notification bug affecting 100% of Android client apps.
+        - point: Accelerated marketing capacity by developing a service to target potential customers based on previous purchases.
+    - company: "KingFit"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
+      role: "Chief Technology Officer"
+      startdate: May 2017
+      enddate: Apr 2018
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
+        - point: Developed iOS and Android app in React Native to deliver diabetes education video content.
+        - point: Published and managed App Store listing with Google Play and iTunes Connect.
+        - point: Enabled product monetization by designing and developing Expo compatible video analytics system.
+    - company: "Parkmo"
       # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
+      role: "Founder"
+      startdate: Dec 2015
+      enddate: May 2017
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
+        - point: Decreased student commute by up to 20 minutes, by informing them of parking availability via mobile app.
+        - point: Eliminated printed parking passes, saving KU $16,000/yr in printing, by using license plate recognition technology.
+        - point: Greatly reduced parking theft by replacing two-hour, manual patrols with constant automated monitoring.
+        - point: Awarded $1,200 from Koch Innovation Challenge 2015 with parking enforcement demo.
+        - point: Placed 3rd out of 62 teams in SNVC 2016, winning $2,000 of seed funding, with business plan and product prototype.
 
   # Education
   disable_education: true
